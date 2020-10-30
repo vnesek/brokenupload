@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: brokenupload
+  server:
+    port: 9201
+    max-request-size: 1000MB
+    multipart:
+      max-file-size: 1000MB
+    cors:
+      enabled: true
